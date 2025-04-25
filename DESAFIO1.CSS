@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    margin: 47px 0 0 42px;
+}
+
+.link-header{
+    width: 47px;
+    color: #17233D;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.875px;
+    margin:0 32px 0 42px;
+}
+
+button{
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+img{
+
+    display: inline-block;
+}
+
+.section-2{
+    display: inline-block;
+    
+}
+
+h1{
+    width: 582px;
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596px;
+    margin: 259px 0 0 85px;
+}
+
+p{
+    width: 493px;
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin: 47px 0 55px 85px;
+}
+
+.link-section2{
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 55px 0 0 85px;
+    cursor: pointer;
+}
+
+@media screen  and (max-width:700px)  { 
+      
+    .link-header{
+        display: none;
+    }
+
+    button{
+        display: block;
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        margin: 17px 15px 0 auto ;
+    }
+
+    main{
+        display: block;
+        padding: 0 20px;
+    }
+
+    .section-2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* centraliza h1, p e o link */
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    h1{
+        width: 100%;
+        font-size: 30px;
+        line-height: 36px;
+        margin: 20px 0;
+    }
+
+    p{
+        width: 90%;
+        font-size: 16px;
+        line-height: 28px;
+        margin: 10px 0;
+    }
+
+    .link-section2{
+        font-size: 18px;
+        margin: 26px auto;
+    }
+
+    img {
+        width: 90%;
+        max-width: 350px;
+        height: auto;
+        display: block;
+        margin: 40px auto 0 auto;
+    }
+
+    
+    
+}
