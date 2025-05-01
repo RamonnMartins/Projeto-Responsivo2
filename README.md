@@ -9,7 +9,7 @@ Interface responsiva desenvolvida como parte de um desafio de HTML e CSS. O proj
 
 ## 🚀 Link do Projeto
 
-[🔗 Clique aqui para ver o site publicado](https://ramonnmartins.github.io/wide-coverage/) 
+[🔗 Clique aqui para ver o site publicado](https://ramonnmartins.github.io/Wide-Coverage/) 
 <!-- Substitua com o link do GitHub Pages, Vercel ou Netlify -->
 
 ## 🛠 Tecnologias Utilizadas
